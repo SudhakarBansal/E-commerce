@@ -77,6 +77,13 @@ nav ul li a:hover {
     min-height: calc(100vh - 60px - 40px);
 }
 
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+
+}
+
 footer {
     font-family: 'Roboto', sans-serif;
     height: 40px;
