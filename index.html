@@ -31,11 +31,32 @@
     <main>
         <div class="container">
             <div class="slider">
-                <img src="https://source.unsplash.com/1600x300/?shoping,ecommerce" alt="">
+                <div class="mySlides">
+                    <img src="./img/1.jpg" alt="">
+                </div>
+                <div class="mySlides">
+                    <img src="./img/2.jpg" alt="">
+                </div>
+                <div class="mySlides">
+                    <img src="./img/3.jpg" alt="">
+                </div>
+                <div class="mySlides">
+                    <img src="./img/4.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
     </main>
     <footer class="d-flex all-center">Copyright &copy; Flipkart.com. All Rights reserved</footer>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
